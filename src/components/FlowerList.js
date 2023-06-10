@@ -70,13 +70,13 @@ const FlowerList = () => {
                 <div className='subtitle'> Existencias:
                   <span className='texto'> {top.existencias} </span>
                 </div>
+              </div>
 
                 <div className='subtitle'> Direccion:
                   <span className='texto'> {top.direccion} </span>
-                </div>
+                  </div>
               </div>
             </div>
-          </div>
 
         )
       })}
